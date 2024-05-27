@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <link href="stylesheet" src="./tables.css"/>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        table, th, td{
+            text-align: right;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table tr:first-child th {
+            background-color: gray !important;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Tables</h1>
+    <table cellspacing = "0">
+        <tr style="background-color: azure;"> <!---Table Row-->
+            <th colspan="1" bgcolor="gray">Time</th><!---Table Header-->
+            <th colspan="1" bgcolor="gray">Monday</th>
+            <th colspan="1" bgcolor="gray">Tuesday</th>
+            <th colspan="1" bgcolor="gray">Wednesday</th>
+            <th colspan="1" bgcolor="gray">Thursday</th>
+            <th colspan="1" bgcolor="gray">Friday</th>
+        </tr>
+        <tr>
+            <td style="border: none;">8AM</td>
+            <td rowspan="2" bgcolor="orange">MGMT 1224 lec A317</td><!---Table Data-->
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td rowspan="2" bgcolor="green">GNED 1527 Lec L207</td>
+        </tr>
+        <tr>
+            <td style="border: none;">9am</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <!-- <td> </td> -->
+        </tr>
+        <tr>
+            <td style="border: none;">1Oam</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td style="border: none;">11am</td>
+            <td> </td>
+            <td> </td>
+            <td rowspan="2" bgcolor="yellow">COSC 1200 Lab C249</td>
+            <td>  </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td style="border: none;">12am</td>
+            <td > </td>
+            <td rowspan="2" bgcolor="purple">INFT 1206 Lab C316 </td>
+            <td> </td>
+            <td rowspan="2" bgcolor="pink"> COSC 1200 Lec C316 </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td style="border: none;">1pm</td>
+            <td rowspan="2" bgcolor="green">INFT 1207 Lec C320</td>
+            <td> </td>
+            <!-- <td> </td> -->
+            <!-- <td> </td> -->
+            <td> </td>
+        </tr>
+        <tr>
+            <td style="border: none;">2pm</td>
+            <td> </td>
+            <td rowspan="2" bgcolor="skyblue">COSC 1200 Lec C307 </td>
+            <td rowspan="2" bgcolor="green">INFT 1206 </td>
+            <td> </td>
+            <!-- <td> </td> -->
+        </tr>
+        <tr>
+            <td style="border: none;">3pm</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <!-- <td> </td> -->
+            <!-- <td> </td> -->
+        </tr>
+        <tr> 
+            <td style="border: none;">4pm</td>
+            <td> </td>
+            <td> </td>
+            <td rowspan="2" bgcolor="green"> INFT 1207 Lab C250 </td>
+            <td> </td>
+            <td> </td>
+
+        </tr>
+        <tr>
+            <td style="border: none;">5pm</td>
+            <td> </td>
+            <td rowspan="2" bgcolor="lightblue"> MGMT 1223 Lab C249</td>
+            <td rowspan="2" bgcolor="purple"> MGMT 1223 Lec F209 </td>
+            <td > </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td style="border: none;">6pm</td>
+            <td> </td>
+            <td rowspan="2" bgcolor="red">INFT 1207 Lab C250 </td>
+            <td> </td>
+            <!-- <td> </td> -->
+            <td> </td>
+        </tr>
+        <tr>
+            <td style="border: none;">7pm</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+
+        </tr>
+        
+    </table>
+   
+</body>
+</html>
