@@ -1,0 +1,47 @@
+/*Highest Priority:Inline-Styling
+Medium Priority:Internal Styling
+Least Priority:External Styling
+
+body{
+    background-color: green;
+}
+/*Using the tag selector
+h1{
+    border: 3px solid red !important;
+}
+ This . is how we target elements using class name
+.title{
+    border: 3px solid blue;
+}
+/* The # is how target element using their id
+#title{
+    border: 3px solid purple;
+}
+
+/*
+In scenerios of conflict the following hierarchy applies:
+Super Highest priorities :!important
+Highest Priority: ids
+Medium Priority:Classes
+low Priority: Tag name
+*/
+/*div{}*/
+body{
+    width: 100px;
+}
+div #parent-container{
+    border: 2px solid black;
+    width: 100px;
+    /*margin: 50px;*/
+
+    /*margin-top: 100px;
+    margin-left: 100px;*/
+    margin: 0 auto;
+    padding: 100px;
+    border-radius: ;
+}
+div.child-container{
+    border: 2px solid red;
+    display: inline;
+    padding: 200px;
+}
