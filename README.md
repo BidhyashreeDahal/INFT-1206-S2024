@@ -1,4 +1,6 @@
+
 # INFT-1206-S2024
+[INFT-1206-S2024]("\Assignments")
 [HTML INTRO](/Class_Notes/HTML/HTML_Intro/index.html)
 [Assignment_1](Assignments/Assignment_1) 
 [Part1](Assignments/Assignment_1/Part1) 
