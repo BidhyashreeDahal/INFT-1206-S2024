@@ -6,7 +6,7 @@
 [Part1](Assignments/Assignment_1/Part1) 
 [Part2](Assignments/Assignment_1/part2) 
 [Assignmnet_2](Assignments/Assignment_2/index.html)
-[part1](Assignments/Assignment_2/part1/index%20(2).html)
+[part1](Assignments/Assignment_2/part1/index.html.html)
 [part2](Assignments/Assignment_2/part2/blank-template.html)
 [Assignment_3](Assignments/Assignment@3/index.html)
 [Assignment_4](Assignments/Assignment@4/index.html)
