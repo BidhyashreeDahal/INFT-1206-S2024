@@ -7,6 +7,9 @@ body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
+  font-family:'libre_baskervilleregular'; 
+
+
 }
 
 /* Layout */
@@ -42,3 +45,21 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+@font-face {
+  font-family: 'latoregular';
+  src: url(./Fonts/lato-regular-webfont.woff2) format('woff2'),
+       url(./Fonts/lato-regular-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'libre_baskervilleregular';
+  src: url(./Fonts/librebaskerville-regular-webfont.woff2) format('woff2'),
+       url(./Fonts/librebaskerville-regular-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+h1,h2{
+  font-family: 'latoregular', sans-serif;
+}
