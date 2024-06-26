@@ -69,5 +69,9 @@ body {
     margin:0 12px 5px 0;
     width: 200px;
   }
+  article{
+    width: 710px;
+    margin-left: 10px;
+  }
   
   
