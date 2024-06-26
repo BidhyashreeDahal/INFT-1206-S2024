@@ -8,8 +8,10 @@ body {
   min-width: 1000px;
   max-width: 1400px;
   font-family:'libre_baskervilleregular'; 
-
-
+  font-size: 10px;
+  line-height: 1.5;
+  letter-spacing:0.5px;
+  word-spacing: 2px; 
 }
 
 /* Layout */
@@ -62,4 +64,38 @@ header, footer {
 }
 h1,h2{
   font-family: 'latoregular', sans-serif;
+  font-size: 30px;
+  letter-spacing:3px;
+}
+h1{
+  text-align: center;
+}
+section p{
+  text-indent: 20px;
+}
+a{
+  text-decoration: underline;
+  color: rgba(0, 0, 255, 0.897);
+  outline: none;
+}
+a:hover,a:focus{
+  color: rgb(165, 42, 42);
+  text-decoration: none;
+}
+a:visited{
+  color: rgb(165, 42, 42);
+}
+a:active{
+ color: rgb(255, 0, 0);
+ background-color: rgb(242, 255, 0);
+ border-radius: 0.5px;
+}
+section p a::after {
+content:"";
+background: url('./external-link-52.png');
+background-size: 10px 10px; 
+width: 10px;
+height: 10px;
+display: inline-block;
+margin-left: 5px;
 }
