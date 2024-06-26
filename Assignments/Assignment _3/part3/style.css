@@ -9,7 +9,7 @@ body {
   max-width: 1400px;
   font-family:'libre_baskervilleregular'; 
   font-size: 10px;
-  line-height: 1.5;
+  line-height: 18px;
   letter-spacing:0.5px;
   word-spacing: 2px; 
 }
@@ -64,11 +64,14 @@ header, footer {
 }
 h1,h2{
   font-family: 'latoregular', sans-serif;
-  font-size: 30px;
   letter-spacing:3px;
 }
 h1{
   text-align: center;
+  font-size: 2.5rem;
+}
+h2{
+  font-size: 1.5rem;
 }
 section p{
   text-indent: 20px;
@@ -79,7 +82,7 @@ a{
   outline: none;
 }
 a:hover,a:focus{
-  color: rgb(165, 42, 42);
+  color: rgba(170, 149, 102, 0.584);
   text-decoration: none;
 }
 a:visited{
@@ -98,4 +101,35 @@ width: 10px;
 height: 10px;
 display: inline-block;
 margin-left: 5px;
+}
+li{
+  line-height: 18px;
+  letter-spacing:0.5px;
+  word-spacing: 2px;
+}
+section ul , aside ul {
+  list-style: square;
+}
+
+nav ul li {
+  font-size: 1rem;
+  border: 1px solid rgb(170, 102, 102);
+  list-style: none;
+  padding: 13px 25px;
+  margin: 0.8rem;
+  text-align: center;
+}
+nav ul a{
+  text-decoration: none;
+}
+nav ul li a:hover, nav ul li a:focus{
+  color:olive;
+}
+nav a:visited{
+  color:goldenrod;
+}
+nav ul li a:active{
+  color: crimson;
+  background-color: khaki;
+  border-radius: 0.5px;
 }
