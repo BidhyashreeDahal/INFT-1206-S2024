@@ -1,7 +1,6 @@
 html {
   font-family: sans-serif;
 }
-
 /* Your CSS below here */
 div{
   width: 300px;
@@ -10,11 +9,11 @@ div{
   margin: auto;
   text-align: center;
   font-size: 1.125rem;
-  background-color: #ff0000;
+  background-color:#ec1b1b;
   color: rgb(255, 255, 255);
   text-shadow:1px 1px 2px black;
   border-radius: 5%;
-  border: 1px solid rgba(255, 0, 0, 0.692);
+  border: 1px solid #a01010;
   background: linear-gradient(bottom right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2) 100%);
-  box-shadow: 3px 3px 5px  rgb(0, 0, 0) ,inset 3.5px 3.5px 5px rgba(255, 255, 255, 0.5),inset -3.5px -3.5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.753) ,inset 4px 4px 5px rgba(255, 255, 255, 0.5),inset -3.5px -3.5px 5px rgba(0, 0, 0, 0.5);
 }
