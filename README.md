@@ -14,5 +14,9 @@
 [part3](Assignments/Assignment%20_3/part3)
 [part4](Assignmets/Assignments_3/part4)
 [Assignment_4](Assignments/Assignment@4/index.html)
+[part1](Assignments/Assignment_4/Part1/)
+[part2](Assignments/Assignment_4/Part2/)
+[part3](Assignments/Assignment_4/Part3/)
+[part4](Assignments/Assignment_4/Part4/)
 [Assignment_5](Assignments/Assignment@5/index.html)
 
