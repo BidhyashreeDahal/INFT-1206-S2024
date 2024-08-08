@@ -5,7 +5,7 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
-const images = [pic1.jpg,pic2.jpg,pic3.jpg,pic4.jpg,pic5.jpg];
+const images = ['images/pic1.jpg','images/pic2.jpg','images/pic3.jpg','images/pic4.jpg','images/pic5.jpg'];
 
 /* Declaring the alternative text for each image file */
 const imageAlts={
@@ -28,16 +28,15 @@ newImage.addEventListener('click', e => {
 }
 
 /* Wiring up the Darken/Lighten button */
-btn.getAttribute
-btn.addEventListener('click',() =>{
-    const buttonClass= btn.getAttribute('class');
-    if(buttonClass=='Dark'){
-        btn.setAttribute('class','Light');
-        btn.textContent='Lighten';
-        overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
-    }else{
-        btn.setAttribute==('class','Dark');
-        btn.textContent='Darken';
-     overlay.style.backgroundColor='rgba(0,0,0,0)';
+btn.addEventListener('click', () => {
+    const btnClass = btn.getAttribute('class');
+    if (btnClass === 'dark') {
+      btn.setAttribute('class','light');
+      btn.textContent = 'Lighten';
+      overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
+    } else {
+      btn.setAttribute('class','dark');
+      btn.textContent = 'Darken';
+      overlay.style.backgroundColor = 'rgba(0,0,0,0)';
     }
-})
+  });
