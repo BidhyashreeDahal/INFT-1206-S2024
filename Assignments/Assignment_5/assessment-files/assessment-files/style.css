@@ -181,11 +181,11 @@ audio {
   cursor: pointer;
 }
 
-.comments font[size="6"] {
+.comments h2 {
   font-size: 2rem;
 }
 
-.comments font[size="6"]:nth-of-type(2) {
+.comments h2:nth-of-type(2) {
   margin-bottom: 0;
 }
 
@@ -219,13 +219,13 @@ audio {
   line-height: 32px;
 }
 
-.comment-form input[type="submit"], .show-hide {
+.comment-form button, .show-hide {
   background: #333;
   border: 0;
   color: white;
 }
 
-.comment-form input[type="submit"] {
+.comment-form button {
   width: 30%;
   display: block;
   margin: 0 auto;

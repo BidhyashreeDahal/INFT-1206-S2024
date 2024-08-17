@@ -45,3 +45,12 @@ function submitComment() {
   nameField.value = '';
   commentField.value = '';
 }
+
+// Comment button
+// Makes the show/hide comment control button keyboard accessible
+const commentBtn = document.querySelector(".show-hide")
+commentBtn.addEventListener("keydown",(e)=>{
+  if(e.keyCode ===13){// Code for the enter or the return key
+    document.activeElement.click();
+  }
+})
