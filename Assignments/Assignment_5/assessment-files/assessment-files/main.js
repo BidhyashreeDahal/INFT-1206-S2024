@@ -45,6 +45,20 @@ function submitComment() {
   nameField.value = '';
   commentField.value = '';
 }
+// Transcript display
+console.log("here")
+const trascript = document.querySelector('.transcript');
+const transcriptBtn = document.querySelector('.transcript-container button');
+transcriptBtn.addEventListener("click", toggleTranscript)
+function toggleTranscript(){
+  if(transcriptBtn.textContent==='Show transcript'){
+    trascript.style.height ='150px';
+    transcriptBtn.textContent ='Hide transcript';
+  }else{
+    trascript.style.height ='0';
+    transcriptBtn.textContent='Show transcript';
+  }
+};
 
 // Comment button
 // Makes the show/hide comment control button keyboard accessible
